@@ -1,0 +1,31 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f0efef;
+}
+.center-container{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-ele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-ele:hover{
+    color: #4500b3;
+    cursor: pointer;
+    transition: 200ms;
+    transform: scale(1.07)
+}
+
+@media (max-width: 768px) {
+    
+    .center-container{
+        display: none;
+    }
+
+  }
