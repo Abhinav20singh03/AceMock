@@ -49,7 +49,7 @@ const AnswerSection = ({ questions, activeQuestion, interviewData }) => {
 
   useEffect(() => {
     if (!isSaved && isRecording) {
-      setMyResults(results); // copy live results safely
+      setMyResults(results); 
     }
   }, [results, isSaved, isRecording]);
 
